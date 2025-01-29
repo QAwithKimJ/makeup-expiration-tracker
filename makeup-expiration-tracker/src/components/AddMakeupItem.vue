@@ -4,7 +4,7 @@
         <form @submit.prevent="addItem">
             <input v-model="name" placeholder="Name" required /><br><br>
             <input v-model="brand" placeholder="Brand" required /><br><br>
-            <input v-model="expirationDate" placeholder="Date" required /><br><br>
+            <input v-model="expirationDate" placeholder="Expiration Date" required /><br><br>
             <button type="submit">Add Item</button>
         </form>
     </div>
